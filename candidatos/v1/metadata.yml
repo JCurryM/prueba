@@ -1,0 +1,14 @@
+api:
+  name: "candidatos"   # name API 
+  version: "1.0.0"    
+  status: stable    #API Stage --> Draft, Design, deploy, retire, sunset 
+  definition: openapi-rest.yml    # TBD 
+  type: kernel   # BFF, CORE/KERNEL, system 
+  description: REST API which provides information about the translation master Id's between IOP and production
+  contact:
+    email:  user@uxcale
+    name:  'CoE Apificación'
+  visibility: PUBLIC    # public or private // internal or external 
+  tags:
+    - <project_name>
+    - etc
