@@ -1,10 +1,10 @@
 
 api:
-  name: <api_name>  # name API
-  version: <api_version>
+  name: CoreCandidatos  # name API
+  version: 0.0.0
   state: stable    #API Stage --> Draft, Design, deploy, retire, sunset 
   layer: <type_layer> #Types: Experience, Process/Business and System
-  definition: openapi-rest.yml    # TBD 
+  definition: openapi.yml    # TBD 
   type: kernel   # BFF, CORE/KERNEL, system 
   description: <api_description>
   contact:
