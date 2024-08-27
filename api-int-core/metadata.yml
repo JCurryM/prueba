@@ -1,0 +1,18 @@
+
+
+contact:
+  email:  user@uxcale
+  name:  'CoE Apificación'
+
+# List of APIs need the product API
+apis:
+  - name: Supplier Transport
+    api-spec-type:  rest
+    definition-path:  bc-supplier-transport/rest
+  - name: Supplier Transport Message
+    api-spec-type:  event
+    definition-path: bc-supplier-transport/event/domain
+  
+tags:
+  - <project_name>
+  - etc

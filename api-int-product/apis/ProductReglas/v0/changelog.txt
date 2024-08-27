@@ -1,0 +1,28 @@
+# API Version history  (changelog[https://keepachangelog.com/en/1.1.0/])
+
+# Changelog
+
+<!-->
+## [2.3.0] - 2024-08-26
+
+### Added
+- New dashboard layout with customizable widgets.
+- Dark mode support.
+- Integration with Slack for real-time notifications.
+- Added advanced search filter for better query refinement.
+
+### Changed
+- Updated user profile page design for easier navigation.
+- Improved performance of data export feature.
+- Enhanced security protocols for login authentication.
+
+### Fixed
+- Fixed an issue where notifications would not be displayed for certain users.
+- Resolved a bug that caused the app to crash when uploading large files.
+- Corrected typos in the user guide and help tooltips.
+
+### Deprecated
+- Removed support for Internet Explorer 11.
+
+
+<-->
