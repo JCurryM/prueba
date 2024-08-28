@@ -12,7 +12,7 @@ api:
     name:  'CoE Apificación'
   visibility: PUBLIC    # public or private // internal or external 
   service: <path_service> #Optional, si viene informado sabemos que tiene micro asociado y si no viene es tipo Proxy
-  protocol: <protocol> #Optional: REST, GRAPHQL..
+  protocol: REST
   isPublished: <> #Types: true/false
   tags:
     - <project_name>
