@@ -1,2 +1,18 @@
-
 api:
+  name: CoreCandidatos  # name API
+  version: 1.0.0
+  state: stable    #API Stage --> Draft, Design, deploy, retire, sunset 
+  layer: <type_layer> #Types: Experience, Process/Business and System
+  definition: openapi-rest.yml    # TBD 
+  type: kernel   # BFF, CORE/KERNEL, system 
+  description: <api_description>
+  contact:
+    email:  user@uxcale
+    name:  'CoE Apificación'
+  visibility: PUBLIC    # public or private // internal or external 
+  service: <path_service> #Optional, si viene informado sabemos que tiene micro asociado y si no viene es tipo Proxy
+  protocol: <protocol> #Optional: REST, GRAPHQL..
+  isPublished: <> #Types: true/false
+  tags:
+    - <project_name>
+    - etc
