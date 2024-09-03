@@ -12,7 +12,7 @@ api:
   visibility: PUBLIC    # public or private // internal or external 
   service: <path_service> #Optional, si viene informado sabemos que tiene micro asociado y si no viene es tipo Proxy
   protocol: REST
-  isPublished: <> #Types: true/false
+  isPublished: true #Types: true/false
   tags:
     - <project_name>
     - etc
